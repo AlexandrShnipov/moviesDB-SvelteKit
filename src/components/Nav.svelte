@@ -1,5 +1,5 @@
 <nav>
-    <a href="/">Movie</a>
+    <a href="/">Movie Database</a>
 </nav>
 
 <style>

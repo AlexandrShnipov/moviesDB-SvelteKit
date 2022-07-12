@@ -1,0 +1,133 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "immutable/start-e19e2d0c.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_index-8a424401.js",
+      "_singletons-cdeec3fd.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/movie/[id].svelte",
+      "src/routes/search/[id].svelte",
+      "src/routes/todos/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "immutable/pages/__layout.svelte-236a71cc.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8a424401.js"
+    ],
+    "css": [
+      "immutable/assets/pages/__layout.svelte-fc759fd5.css"
+    ],
+    "assets": [
+      "immutable/assets/fira-mono-cyrillic-ext-400-normal-3df7909e.woff2",
+      "immutable/assets/fira-mono-all-400-normal-1e3b098c.woff",
+      "immutable/assets/fira-mono-cyrillic-400-normal-c7d433fd.woff2",
+      "immutable/assets/fira-mono-greek-ext-400-normal-9e2fe623.woff2",
+      "immutable/assets/fira-mono-greek-400-normal-a8be01ce.woff2",
+      "immutable/assets/fira-mono-latin-ext-400-normal-6bfabd30.woff2",
+      "immutable/assets/fira-mono-latin-400-normal-e43b3538.woff2"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "immutable/error.svelte-39a78789.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8a424401.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "immutable/pages/index.svelte-4bc74775.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8a424401.js",
+      "_navigation-772a9d8a.js",
+      "_index-a2e206fb.js",
+      "_MovieCard-7230cdc7.js",
+      "_singletons-cdeec3fd.js"
+    ],
+    "css": [
+      "immutable/assets/pages/index.svelte-460931ce.css"
+    ]
+  },
+  "src/routes/movie/[id].svelte": {
+    "file": "immutable/pages/movie/_id_.svelte-0356f970.js",
+    "src": "src/routes/movie/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8a424401.js",
+      "_index-a2e206fb.js"
+    ],
+    "css": [
+      "immutable/assets/pages/movie/_id_.svelte-d1ef8d82.css"
+    ]
+  },
+  "src/routes/search/[id].svelte": {
+    "file": "immutable/pages/search/_id_.svelte-63ff4129.js",
+    "src": "src/routes/search/[id].svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8a424401.js",
+      "_MovieCard-7230cdc7.js"
+    ],
+    "css": [
+      "immutable/assets/pages/search/_id_.svelte-feca97b1.css"
+    ]
+  },
+  "src/routes/todos/index.svelte": {
+    "file": "immutable/pages/todos/index.svelte-dacaabc0.js",
+    "src": "src/routes/todos/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_index-8a424401.js",
+      "_navigation-772a9d8a.js",
+      "_index-a2e206fb.js",
+      "_singletons-cdeec3fd.js"
+    ],
+    "css": [
+      "immutable/assets/pages/todos/index.svelte-a910a02d.css"
+    ]
+  },
+  "_index-8a424401.js": {
+    "file": "immutable/chunks/index-8a424401.js"
+  },
+  "_singletons-cdeec3fd.js": {
+    "file": "immutable/chunks/singletons-cdeec3fd.js"
+  },
+  "_index-a2e206fb.js": {
+    "file": "immutable/chunks/index-a2e206fb.js",
+    "imports": [
+      "_index-8a424401.js"
+    ]
+  },
+  "_navigation-772a9d8a.js": {
+    "file": "immutable/chunks/navigation-772a9d8a.js",
+    "imports": [
+      "_singletons-cdeec3fd.js"
+    ]
+  },
+  "_MovieCard-7230cdc7.js": {
+    "file": "immutable/chunks/MovieCard-7230cdc7.js",
+    "imports": [
+      "_index-8a424401.js"
+    ],
+    "css": [
+      "immutable/assets/MovieCard-537e851f.css"
+    ]
+  }
+}

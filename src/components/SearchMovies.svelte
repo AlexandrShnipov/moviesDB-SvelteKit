@@ -13,11 +13,11 @@
     }
 
     const submitSearch = () => {
-      goto('/search/'+inputValue);
+        goto('/search/' + inputValue);
     }
 </script>
 
-<form on:submit|preventDefault ={submitSearch}>
+<form on:submit|preventDefault={submitSearch}>
     {#if !active}
         <label
                 in:fly={{y: -10, duration: 500}}
@@ -35,8 +35,7 @@
             class={active ? 'selected' : ''}>
 
     {#if inputValue}
-        <button
-                in:fly={{x: 0, duration: 500}}
+        <button in:fly={{x: 0, duration: 500}}
                 out:fly={{x: 20, duration: 500}}>
             Search
         </button>

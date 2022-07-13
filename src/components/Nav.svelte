@@ -1,6 +1,11 @@
+<script>
+    import Preloader from "../common/Preloader.svelte";
+</script>
+
 <nav>
     <a href="/">Movie Database</a>
 </nav>
+
 
 <style>
     nav{

@@ -38,6 +38,7 @@
   
   $: buttonDisabledPrev = currentPage === 1;
   $: buttonDisabledNext = currentPage === totalPages;
+  
 </script>
 
 <div class="paginator">

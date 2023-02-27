@@ -15,6 +15,8 @@
   
   const updatePageActive = () => {
     pageActive = currentPage;
+    // Update URL with page number
+    history.pushState({}, '', `/?page=${pageActive}`);
   };
   
   const loadPopularMovies = async () => {
@@ -25,6 +27,7 @@
       total = data.total_pages;
     }
   };
+  
   const onPageChange = async (page) => {
     currentPage = page;
     updatePageActive();
@@ -32,6 +35,13 @@
   };
   
   onMount(() => {
+    // Load page number from URL (if any)
+    const urlParams = new URLSearchParams(window.location.search);
+    const pageNumber = urlParams.get('page');
+    if (pageNumber) {
+      currentPage = parseInt(pageNumber, 10);
+      pageActive = currentPage;
+    }
     loadPopularMovies();
   });
   
@@ -53,6 +63,7 @@
     <Paginator {total} onPageChange={onPageChange}/>
   {/if}
 </section>
+
 
 
 
